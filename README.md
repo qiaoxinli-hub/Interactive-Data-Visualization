@@ -18,7 +18,7 @@ Interactive-Data-Visualization/
 
 The workbook is the BLS Local Area Unemployment Statistics annual-average series, *States and selected areas: Employment status of the civilian noninstitutional population*. The source and methodology are documented on the [BLS LAUS statewide data page](https://www.bls.gov/lau/rdscnp16.htm). It contains state and selected-area observations; the script removes Los Angeles County and New York City and keeps the 50 states and District of Columbia. The analysis window is 1976–2024.
 
-The plotted indicators are the employment-to-population ratio, labor-force participation rate, and unemployment rate. The script validates the jurisdiction/year coverage and writes the state-level 2019-to-2024 employment-to-population comparison to `results/employment_population_recovery_2019_2024.csv`.
+The plotted indicators are the employment-to-population ratio, labor-force participation rate, and unemployment rate.
 
 ## Interactive dashboard
 
