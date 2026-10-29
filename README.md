@@ -42,5 +42,3 @@ source("code/interactive_datapreparation.R")
 ```
 
 The script displays the dashboard in an interactive session and writes the recovery CSV to `results/`. In a non-interactive R session, it opens a temporary browser preview; it does not save a dashboard HTML file into the repository.
-
-The Quarto blog post is in the sibling `mywebsite` repository at `blog/posts/post7/index.qmd`. It sources this analysis script, embeds the Plotly dashboard, calculates the displayed summaries, and reads the generated recovery CSV. To render the site locally, keep both repositories as siblings and run `quarto render` from the `mywebsite` project root.
